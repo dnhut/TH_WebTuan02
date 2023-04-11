@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            margin: 5px;
+        }
+        form{
+            width: 400px;
+            margin: 10px;
+            border: 5px solid #03030309;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id = "formtravel" method="post" name="form" >
+        <h1>
+            Travel reservation form
+        </h1>
+        <h2>
+            *denotes mandotory
+        </h2>
+        <table>
+            <tr>
+                <td>
+                    <p>Full name*</p>
+                    <input type="text" placeholder="FirstName LastName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Email address*:</p>
+                    <input type="text" placeholder="EMAIL_ADDRESS">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <p>Select Tour Package*</p>
+                    
+                        <select name="selectTour" id="selectTour" style="width: 100px; border-radius: 3px;">
+                            <option value="Koa">Goa</option>
+                            <option value="Miria">Miria</option>
+                            <option value="Toyota">Toyota</option>
+                        </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Arrival date*:</p>
+                    <input type="text" placeholder="m/d/y">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Number of persons*</p>
+                    <input type="text" placeholder="UNKNOWN_TYPE">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>What would you want to avail?*</p>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Boarding
+                        <input type="checkbox" name="" id="">
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Fooding
+                        <input type="checkbox" name="" id="">
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Sight seeing 
+                        <input type="checkbox" name="" id="">
+                    </p>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Discout Coupon code:</p>
+                    <input type="text" placeholder="UNKNOWN_TYPE" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p >Term and conditions*</p>
+                    <label for=" btnradio"><input type="radio" name="YESNO" id="btnradio" value="I agree" > I agree</label>
+                    <label for=" btnradio"><input type="radio" name="YESNO" id="btnradio" value="I disagree" > I disagree</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Complete reservation">
+                </td>
+            </tr>
+
+        </table>
+        
+
+    </form>
+</body>
+</html>

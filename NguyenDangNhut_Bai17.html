@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flex-box{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        #form-first{
+            width: 700px;
+            background-color: rgb(226, 187, 114);
+            padding: 10px;
+        }
+        #form-second{
+            margin-top: 10px;
+            border: 2px solid #777;
+            width: 450px;
+            padding: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+        <form action="" method="post" id="form-first" name="form">
+
+            <h2 align = "center">Survey Form</h2>
+        <p>If you are interested in purcharsing one or mỏe of our products, before ordering please
+            complete some or all of the following survey
+        for our marketing department. Answering any quetion is optional, and all information will be kept strictly confidential. Thank you very much for you time!  
+        </p>
+        <ol >
+            <li >what is your name?
+                <p><input style="width: 300px; height: 15px; margin: 0px 0x; "type="text"></p>
+            </li>
+            <li>What is your date of birth ?
+                <p>Month:
+                    <select name="selectMonth" id="">
+                        <option value="">January</option>
+                        <option value="">October</option>
+                        <option value="">May</option>
+                        
+                    </select>
+                    Date:
+                    <select name="selectDate" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3...</option>
+                    </select>
+                    <label for="" >Year:</label><input style=" height: 10px;width: 40px;" type="text">
+                    
+                </p>
+            </li>
+            <li>
+                what is your mailing address(if you would like to have a hard copy of our catalog sent to you)
+                <br/>
+                <textarea name="" id="" cols="40" rows="4" >Number/P.O. Box/Route                         Street/Avenue/Road:                         City:                              State/Zip:
+                </textarea>
+            </li>
+            <li>
+                What is your email address ?
+                <br>
+                <input  style=" height: 10px; width: 180px;"type="email" name="" id="">
+            </li>
+            <li>
+                Have you viewed our online product catalog?
+                <br>
+                <input type="radio" name="btnYes" id=""> Yes
+                <input type="radio" name="btnYes" id=""> No
+            </li>
+            <li>
+                If so, what product(S), besides the one you are ordering,might you be interested in purcharsing
+                in the future? (Check all that apply).
+                <br>
+                <input  type="checkbox" name="" id="">VCR
+                <br>
+                <input type="checkbox" name="" id="">Big Screen TV
+                <br>
+                <input type="checkbox" name="" id="">Audio Eqipment
+                <br>
+                <input type="checkbox" name="" id="">Video Equipment
+                <br>
+                <input type="checkbox" name="" id="">Camera Equipment
+                <br>
+                <input type="checkbox" name="" id="">Other
+                <input type="text" name="" id="" value="Please List" style="width: 240px;">
+            </li>
+            <li>
+                Do you have any questions, comments or suggestions before proceeding to the 
+                Order Form?
+                <br>
+               <textarea name="" id="" cols="40" rows="5">Your Input:</textarea>
+            </li>
+            <div id = "flex-box">
+                <input type="button" value="Send Form" style="margin-right: 10px;">
+                <input type="button" value="Clear Form" style="margin-left: 10px;">
+            </div>
+        </ol>
+        </form>
+
+        <form action="" method="post" id = "form-second" border="4">
+            <p>
+                Browser: 
+                <select style="width: 120px;" name="" id=""></select>
+            </p>
+            <p>
+                Username: 
+                <input type="text" name="" id="">
+            </p>
+            <p>
+                Encryption: 
+                <select style="width: 160px;" name="" id="">
+                    <option value="">2048 (High Grade)</option>
+                    <option value="">1024 (High Grade)</option>
+                    <option value="">512 (High Grade)</option>
+                </select>
+                <br>
+                 0 <input type="range" name="" id=""> 100
+                 <br>
+                 <input type="text" value="50">
+            </p>
+            <p>
+                Birthday: 
+                <input type="date" name="" id="">
+            </p>
+            <p>
+                Select your favorite color: 
+                <input type="color" name="" id="" value="#FF0000">
+            </p>
+            <p>
+                Birthday(month and): 
+                <input type="month" name="" id="">
+            </p>
+            <p>
+                Select a week: 
+                <input type="week" name="" id="">
+            </p>
+            <p>
+                Select a time: 
+                <input type="time" name="" id="">
+            </p>
+            <p>
+                Birthday(date and time): 
+                <input type="datetime" name="" id="">
+            </p>
+            <p>
+                E-mail: 
+                <input type="email" name="" id="">
+            </p>
+            <p>
+                Search Google: 
+                <input type="search" name="" id="">
+            </p>
+            <p>
+                Telephone: 
+                <input type="tel" id="">
+            </p>
+            <p>
+                Add your homepage: 
+                <input type="text=" id="">
+            </p>
+            <p>
+                <input type="button" value="Submit">
+            </p>
+            <p>
+                <b>Note:</b>  The datalist tag is not supported in Safari or IE9(and earlier).
+                
+            </p>
+        </form>
+</body>
+</html>
